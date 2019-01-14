@@ -1,0 +1,246 @@
+[
+{
+  "model": "ordering_service.customer",
+  "pk": 1,
+  "fields": {
+    "name": "Elen",
+    "phone_number": "11111"
+  }
+},
+{
+  "model": "ordering_service.customer",
+  "pk": 2,
+  "fields": {
+    "name": "Greg",
+    "phone_number": "22222"
+  }
+},
+{
+  "model": "ordering_service.pizzasize",
+  "pk": 1,
+  "fields": {
+    "size": "Small"
+  }
+},
+{
+  "model": "ordering_service.pizzasize",
+  "pk": 2,
+  "fields": {
+    "size": "Medium"
+  }
+},
+{
+  "model": "ordering_service.pizzasize",
+  "pk": 3,
+  "fields": {
+    "size": "Big"
+  }
+},
+{
+  "model": "ordering_service.pizza",
+  "pk": 1,
+  "fields": {
+    "title": "Funghi",
+    "possible_sizes": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "ordering_service.pizza",
+  "pk": 2,
+  "fields": {
+    "title": "Margherita",
+    "possible_sizes": [
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "ordering_service.pizza",
+  "pk": 3,
+  "fields": {
+    "title": "Diavola",
+    "possible_sizes": [
+      3
+    ]
+  }
+},
+{
+  "model": "ordering_service.pizza",
+  "pk": 4,
+  "fields": {
+    "title": "Proscuto",
+    "possible_sizes": [
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "ordering_service.pizza",
+  "pk": 5,
+  "fields": {
+    "title": "Quattro Formaggi",
+    "possible_sizes": [
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "ordering_service.order",
+  "pk": 1,
+  "fields": {
+    "customer": 1,
+    "status": "new",
+    "created_at": "2019-01-11T22:47:00.552Z",
+    "updated_at": "2019-01-13T23:10:50.424Z"
+  }
+},
+{
+  "model": "ordering_service.order",
+  "pk": 2,
+  "fields": {
+    "customer": 1,
+    "status": "delivered",
+    "created_at": "2019-01-11T22:47:25.345Z",
+    "updated_at": "2019-01-13T23:11:16.773Z"
+  }
+},
+{
+  "model": "ordering_service.order",
+  "pk": 3,
+  "fields": {
+    "customer": 2,
+    "status": "new",
+    "created_at": "2019-01-11T22:48:05.563Z",
+    "updated_at": "2019-01-13T23:11:26.976Z"
+  }
+},
+{
+  "model": "ordering_service.order",
+  "pk": 4,
+  "fields": {
+    "customer": 1,
+    "status": "new",
+    "created_at": "2019-01-11T22:48:31.429Z",
+    "updated_at": "2019-01-13T20:33:44.463Z"
+  }
+},
+{
+  "model": "ordering_service.order",
+  "pk": 5,
+  "fields": {
+    "customer": 2,
+    "status": "new",
+    "created_at": "2019-01-13T23:07:50.002Z",
+    "updated_at": "2019-01-13T23:11:46.268Z"
+  }
+},
+{
+  "model": "ordering_service.orderedpizza",
+  "pk": 3,
+  "fields": {
+    "order": 3,
+    "pizza": 3,
+    "size": 1,
+    "quantity": 4
+  }
+},
+{
+  "model": "ordering_service.orderedpizza",
+  "pk": 4,
+  "fields": {
+    "order": 3,
+    "pizza": 2,
+    "size": 2,
+    "quantity": 1
+  }
+},
+{
+  "model": "ordering_service.orderedpizza",
+  "pk": 8,
+  "fields": {
+    "order": 4,
+    "pizza": 3,
+    "size": 1,
+    "quantity": 41
+  }
+},
+{
+  "model": "ordering_service.orderedpizza",
+  "pk": 18,
+  "fields": {
+    "order": 4,
+    "pizza": 1,
+    "size": 2,
+    "quantity": 43
+  }
+},
+{
+  "model": "ordering_service.orderedpizza",
+  "pk": 23,
+  "fields": {
+    "order": 4,
+    "pizza": 2,
+    "size": 2,
+    "quantity": 3
+  }
+},
+{
+  "model": "ordering_service.orderedpizza",
+  "pk": 26,
+  "fields": {
+    "order": 1,
+    "pizza": 3,
+    "size": 2,
+    "quantity": 3
+  }
+},
+{
+  "model": "ordering_service.orderedpizza",
+  "pk": 27,
+  "fields": {
+    "order": 1,
+    "pizza": 4,
+    "size": 1,
+    "quantity": 2
+  }
+},
+{
+  "model": "ordering_service.orderedpizza",
+  "pk": 28,
+  "fields": {
+    "order": 2,
+    "pizza": 2,
+    "size": 2,
+    "quantity": 2
+  }
+},
+{
+  "model": "ordering_service.orderedpizza",
+  "pk": 29,
+  "fields": {
+    "order": 2,
+    "pizza": 5,
+    "size": 1,
+    "quantity": 4
+  }
+},
+{
+  "model": "ordering_service.orderedpizza",
+  "pk": 30,
+  "fields": {
+    "order": 2,
+    "pizza": 1,
+    "size": 1,
+    "quantity": 1
+  }
+}
+]
